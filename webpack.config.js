@@ -22,8 +22,13 @@ module.exports = {
                 sourceMap: (mode === 'development')
               }
             },
-            'sass-loader'
-          ]
+            'sass-loader': {
+              loader: 'sass-loader',
+              options: {
+                implementation: require('sass')
+              }
+            }
+          }
       },
       {
         test: /\.js$/,
