@@ -1,4 +1,4 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const mode = process.env.MODE
 
 module.exports = {
@@ -14,18 +14,16 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        use: ExtractTextPlugin.extract({
-          use: [
+        use: [
+          MiniCssExtractPlugin.loader,
             {
               loader: 'css-loader',
               options: {
                 sourceMap: (mode === 'development')
               }
             },
-            'sass-loader',
-            'import-glob-loader'
+            'sass-loader'
           ]
-        })
       },
       {
         test: /\.js$/,
@@ -56,7 +54,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('../stylesheets/style.css')
+    new MiniCssExtractPlugin({ filename: '../stylesheets/style.css' })
   ],
   devServer: {
     historyApiFallback: true,

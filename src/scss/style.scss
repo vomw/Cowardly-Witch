@@ -1,4 +1,33 @@
 @import 'base', 'variable', 'mixin', 'function';
 
-@import 'modules/**/*.scss';
-@import 'keyframes/**/*.scss';
+@import 'modules/_CowardlyWitch.scss';
+@import 'modules/_LastChapter.scss';
+@import 'modules/_MemoriesPage.scss';
+@import 'modules/_Menu.scss';
+@import 'modules/_Page.scss';
+@import 'modules/_ProductPage.scss';
+@import 'modules/_ProfilePage.scss';
+@import 'modules/_Prologue.scss';
+@import 'modules/_SitePage.scss';
+@import 'modules/_Version1.scss';
+@import 'modules/_Version2.scss';
+@import 'modules/_Version3.scss';
+@import 'modules/_Version4.scss';
+@import 'modules/_Version5.scss';
+@import 'modules/_Version6.scss';
+@import 'modules/_VersionView.scss';
+@import 'modules/effects/_Effect1.scss';
+@import 'modules/effects/_Effect2.scss';
+@import 'modules/effects/_Effect3.scss';
+
+@import 'keyframes/_common.scss';
+@import 'keyframes/modules/_LastChapter.scss';
+@import 'keyframes/modules/_Page.scss';
+@import 'keyframes/modules/_Prologue.scss';
+@import 'keyframes/modules/_Version1.scss';
+@import 'keyframes/modules/_Version2.scss';
+@import 'keyframes/modules/_Version3.scss';
+@import 'keyframes/modules/_Version4.scss';
+@import 'keyframes/modules/_Version5.scss';
+@import 'keyframes/modules/_Version6.scss';
+@import 'keyframes/modules/_VersionView.scss';
