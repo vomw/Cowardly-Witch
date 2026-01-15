@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # Required for the commit step
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -23,11 +20,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Commit and push yarn.lock
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Upload yarn.lock artifact
+        uses: actions/upload-artifact@v3
         with:
-          commit_message: 'CI: Update yarn.lock'
-          file_pattern: 'yarn.lock'
+          name: yarn-lock-artifact
+          path: yarn.lock
 
   build:
     needs: update-lockfile
@@ -36,11 +33,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Download yarn.lock artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: yarn-lock-artifact
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '16'
-          cache: 'yarn'
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
