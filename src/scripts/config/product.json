@@ -1,0 +1,233 @@
+{
+  "app": [
+    {
+      "name": "satella.io",
+      "link": "https://github.com/yuki540net/satella.io",
+      "thumb": "./images/product/satella.io.png",
+      "description": "イラストに「命」を吹き込むソフトウェア",
+      "date": "2017/02/05"
+    },
+    {
+      "name": "Shuvi",
+      "link": "https://github.com/yuki540net/Shuvi",
+      "thumb": "./images/product/shuvi.png",
+      "description": "フレームレスなYouTubeプレイヤー",
+      "date": "2017/05/13"
+    },
+    {
+      "name": "若葉",
+      "link": "https://github.com/yuki540net/wakaba",
+      "thumb": "./images/product/wakaba.png",
+      "description": "PC画面上にコメントが流せるデスクトップアプリ",
+      "date": "2017/03/19"
+    },
+    {
+      "name": "兎亜",
+      "link": "https://github.com/yuki540net/toa",
+      "thumb": "./images/product/toa.png",
+      "description": "シンプルで可愛いミュージックプレイヤー",
+      "date": "2017/04/08"
+    },
+    {
+      "name": "HyperSana",
+      "link": "https://github.com/yui540/hyper-sana",
+      "thumb": "./images/product/hyper-sana.png",
+      "description": "ターミナルエミュレータ「Hyper」の「名取さな」テーマプラグイン",
+      "date": "2018/07/15"
+    },
+    {
+      "name": "HyperAkari",
+      "link": "https://github.com/yui540/hyper-akari",
+      "thumb": "./images/product/hyper-akari.png",
+      "description": "ターミナルエミュレータ「Hyper」の「ミライアカリ」テーマプラグイン",
+      "date": "2018/07/07"
+    },
+    {
+      "name": "音卵",
+      "link": "https://github.com/yuki540net/ontama",
+      "thumb": "./images/product/ontama.png",
+      "description": "声優ラジオ音泉をダウンロードするAndroidアプリ",
+      "date": "2017/04/15"
+    }
+  ],
+  "works": [
+    {
+      "name": "ショートムービー「unmoral」公式サイト",
+      "link": "https://unmoral.cgmovie.art",
+      "thumb": "./images/product/unmoral.png",
+      "description": "『これは、愛情表現？』",
+      "date": "2018/12/22"
+    },
+    {
+      "name": "バーチャルニート公式サイト",
+      "link": "https://virtual-neet.magical-girl.site/",
+      "thumb": "./images/product/virtual-neet.png",
+      "description": "『8人のバーチャルニートが集結。』",
+      "date": "2018/09/23"
+    },
+  	{
+      "name": "初音ミク HomeLive in Gatebox",
+      "link": "https://gatebox.ai/homelive/",
+      "thumb": "./images/product/gatebox.png",
+      "description": "コーディング&アニメーションを担当。Webデザインは@KmGraphさんです。ロゴデザインは@reku_ALさんです。",
+      "date": "2018/04/28"
+    },
+    {
+      "name": "ひまわり鎮痛剤 Webサイト",
+      "link": "https://sai-chan.com/",
+      "thumb": "./images/product/sai-chan.png",
+      "description": "同人サークル「ひまわり鎮痛剤」のwebサイトを製作させていただきました",
+      "date": "2018/07/02"
+    }
+  ],
+  "design": [
+    {
+      "name": "palette - パレット",
+      "link": "https://palette.yui540.graphics",
+      "thumb": "./images/product/palette.png",
+      "description": "過去に作品で使ってきた色をまとめたサイトです。",
+      "date": "2018/01/17 ~"
+    },
+    {
+      "name": "夜空ノ贈リ物",
+      "link": "https://yozora.magical-girl.site",
+      "thumb": "./images/product/yozora.png",
+      "description": "『ようこそ、臆病な魔女教団へ。』",
+      "date": "2018/10/08"
+    },
+    {
+      "name": "由比ヶ浜結衣生誕2018 - 非公式サイト",
+      "link": "https://yui.magical-girl.site/",
+      "thumb": "./images/product/yui.png",
+      "description": "『ありがと...バカ』",
+      "date": "2018/06/18"
+    },
+    {
+      "name": "夜空ノ贈リ物 告知用サイト",
+      "link": "https://yui540.graphics/content/sky-night-gift/",
+      "thumb": "./images/product/sky-night-gift.png",
+      "description": "『臆病な魔女は、たくさんの方々に感謝の気持ちを。』",
+      "date": "2018/08/26"
+    },
+    {
+      "name": "DropOut",
+      "link": "https://magical-girl.site",
+      "thumb": "./images/product/v6.png",
+      "description": "ポートフォリオサイトのバージョン6です。",
+      "date": "???"
+    },
+    {
+      "name": "ヒトリゴト",
+      "link": "https://hitorigoto.magical-girl.site",
+      "thumb": "./images/product/v5.png",
+      "description": "ポートフォリオサイトのバージョン5です。",
+      "date": "???"
+    },
+    {
+      "name": "ChocolateCake",
+      "link": "https://chocolate-cake.magical-girl.site/",
+      "thumb": "./images/product/chocolate-cake.png",
+      "description": "僕が作ったCSS Animation作品をまとめたサイト",
+      "date": "2018/03/22"
+    }
+  ],
+  "matome": [
+    {
+      "name": "CSSアニメーションを使った状態変化パターンの提案",
+      "link": "https://twitter.com/i/moments/1068380001433661440",
+      "thumb": "./images/product/css-animation-state-matome.png",
+      "description": "CSSアニメーションを使ったコンポーネント単位の状態変化パターンの提案を投稿してます。",
+      "date": "2018/11/30 ~"
+    },
+    {
+      "name": "素のHTML5Canvasで遊ぶ",
+      "link": "https://twitter.com/i/moments/1063741879752187904",
+      "thumb": "./images/product/html5canvas-matome.png",
+      "description": "ライブラリを使わずにHTML5Canvasで遊ぶ",
+      "date": "2018/11/30 ~"
+    },
+    {
+      "name": "CSSアニメーションまとめ",
+      "link": "https://twitter.com/i/moments/1059704036906024965",
+      "thumb": "./images/product/css-animation-matome.png",
+      "description": "過去にCSSアニメーションで作った作品をまとめました。",
+      "date": "2018/11/30 ~"
+    }
+  ],
+  "lib": [
+    {
+      "name": "onsen-node",
+      "link": "https://github.com/yuki540net/onsen-node",
+      "thumb": "./images/product/onsen-node.png",
+      "description": "声優ラジオ音泉APIライブラリ for Node",
+      "date": "2017/02/25"
+    },
+    {
+      "name": "nicoJS",
+      "link": "https://github.com/yuki540net/nicoJS",
+      "thumb": "./images/product/nicoJS.png",
+      "description": "ニコニコ風コメントを実装するライブラリ",
+      "date": "2016/09/25"
+    }
+  ],
+  "illust": [
+    {
+      "name": "ベクター版yui540",
+      "link": "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71343316",
+      "thumb": "./images/product/illust-3.png",
+      "description": "ベクター版のyui540です。",
+      "date": "2018/10/25"
+    },
+    {
+      "name": "『１＋１＝？』『３』",
+      "link": "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71197248",
+      "thumb": "./images/product/illust-2.png",
+      "description": "ポンコツな女の子を描いた。",
+      "date": "2018/10/15"
+    },
+    {
+      "name": "よろしくね。",
+      "link": "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71177778",
+      "thumb": "./images/product/illust-1.png",
+      "description": "はじめまして、yui540だよ。よろしくね。",
+      "date": "2018/10/14"
+    },
+    {
+      "name": "VTuber壁紙",
+      "link": "https://github.com/yui540/vtuber-wallpaper",
+      "thumb": "./images/product/vtuber-wallpaper.png",
+      "description": "有名どころのVTuberの壁紙。",
+      "date": "2018/07/14"
+    }
+  ],
+  "movie": [
+    {
+      "name": "まじょのおとしもの。 オープニング",
+      "link": "https://youtu.be/svP4F3HH9Qk",
+      "thumb": "./images/product/vtuber-op.png",
+      "description": "『まじょのおとしもの。』のオープニングアニメーションです。",
+      "date": "2018/10/24"
+    },
+    {
+      "name": "ニートに学ぶCSS Animation演出講座 放課後 part2",
+      "link": "https://www.youtube.com/watch?v=D9FgXH6HX6g",
+      "thumb": "./images/product/neet_study_live.png",
+      "description": "ニートに学ぶCSS Animation演出講座の生放送 part2",
+      "date": "2018/06/29"
+    },
+    {
+      "name": "ニートに学ぶCSS Animation演出講座 放課後 part1",
+      "link": "https://www.youtube.com/watch?v=wFJ8WB4G4KM",
+      "thumb": "./images/product/neet_study_live.png",
+      "description": "ニートに学ぶCSS Animation演出講座の生放送 part1",
+      "date": "2018/06/21"
+    },
+    {
+      "name": "COLORFUL_STEP",
+      "link": "http://www.nicovideo.jp/watch/sm26374280",
+      "thumb": "./images/product/colorful_step.png",
+      "description": "待ち望んだ全ては------そこにあるの。",
+      "date": "2015/05/30"
+    }
+  ]
+}
