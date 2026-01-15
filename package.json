@@ -8,7 +8,7 @@
     "format": "prettier-eslint --write '**/*.js'",
     "minify:css": "uglifycss public/stylesheets/style.css --output public/stylesheets/style.css",
     "build": "npm-run-all -s build:prod minify:css",
-    "build:prod": "cross-env NODE_OPTIONS=--openssl-legacy-provider MODE=production webpack",
+    "build:prod": "cross-env MODE=production webpack",
     "build:dev": "cross-env MODE=development webpack",
     "watch": "cross-env MODE=development webpack --watch",
     "serve": "webpack-dev-server"
