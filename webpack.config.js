@@ -8,8 +8,7 @@ module.exports = {
   },
   output: {
     path: `${ __dirname }/public/scripts`,
-    filename: 'app.min.js',
-    publicPath: '/Cowardly-Witch/'
+    filename: 'app.min.js'
   },
   module: {
     rules: [
